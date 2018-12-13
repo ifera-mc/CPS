@@ -1,4 +1,4 @@
-![CPS Banner](https://github.com/JackMD/CPS/blob/master/meta/CPS.PNG)
+![CPS Banner](https://github.com/JackMD/CPS/blob/master/meta/cps.png)
 # CPS
 
 | HitCount | License | Poggit | Release |
