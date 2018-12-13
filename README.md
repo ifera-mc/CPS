@@ -12,7 +12,7 @@
 CPS provides a simple API for developers wishing to use this plugin.<br />
 - First you need to get hold of the plugin. You can do so by:<br />
 ```php
-$cps = Server::getInstance()->getPluginManager()->getPlugin("EasyHomes");
+$cps = Server::getInstance()->getPluginManager()->getPlugin("CPS");
 if($cps instanceof \JackMD\CPS\CPS){
     //do whatever
 }
