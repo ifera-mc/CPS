@@ -22,7 +22,7 @@ if($cps instanceof \JackMD\CPS\CPS){
 /** @var pocketmine\Player $player */
 $clicks = $cps->getClicks($player);
 ```
-- You can take a look at [CPS](https://github.com/AntiCores/CPS/blob/master/src/JackMD/CPS/CPS.php) for more info.
+- You can take a look at [CPS]https://github.com/JackMD/CPS/blob/master/src/JackMD/CPS/CPS.php) for more info.
 
 ### Credits
 [DaPigGuy](https://github.com/DaPigGuy) for most of the code.
