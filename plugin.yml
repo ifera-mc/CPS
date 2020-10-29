@@ -4,3 +4,5 @@ api: [3.0.0]
 version: 1.0.0
 description: A simple plugin which checks the clicks of a player per second.
 authors: [DaPigGuy, JackMD]
+softdepend:
+- CPS

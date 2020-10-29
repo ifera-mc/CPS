@@ -5,7 +5,13 @@
 |:--:|:--:|:--:|:--:|
 |[![HitCount](http://hits.dwyl.io/JackMD/CPS.svg)](http://hits.dwyl.io/JackMD/CPS)|[![GitHub license](https://img.shields.io/github/license/JackMD/CPS.svg)](https://github.com/JackMD/CPS/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/JackMD/CPS/CPS)](https://poggit.pmmp.io/ci/JackMD/CPS/CPS)|[![](https://poggit.pmmp.io/shield.state/CPS)](https://poggit.pmmp.io/p/CPS)|
 
-### A simple plugin which checks the clicks of a player per second.
+### A simple plugin which checks the clicks of a player per second. With in-built support for ScoreHud version 6.0+.
+
+### Available Tags:
+
+| Tag | Description |
+|:--:|:--:|
+|`{cps.cps}`|Shows the cps of the player on ScoreHud|
 
 ### API
 
