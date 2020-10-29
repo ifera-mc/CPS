@@ -5,4 +5,6 @@ projects:
   CPS:
     path: ""
     icon: meta/cps.png
+    lint:
+      phpstan: false
 ...
