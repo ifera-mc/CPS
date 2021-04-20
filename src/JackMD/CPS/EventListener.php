@@ -6,6 +6,8 @@ namespace JackMD\CPS;
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
 use pocketmine\network\mcpe\protocol\InventoryTransactionPacket;
+use pocketmine\network\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine\network\mcpe\protocol\types\inventory\UseItemOnEntityTransactionData;
 
 class EventListener implements Listener{
 	
@@ -26,12 +28,9 @@ class EventListener implements Listener{
 	 */
 	public function onDataPacketReceive(DataPacketReceiveEvent $event){
 		$player = $event->getPlayer();
-		$packet = $event->getPacket();
-		if($packet instanceof InventoryTransactionPacket){
-			$transactionType = $packet->transactionType;
-			if($transactionType === InventoryTransactionPacket::TYPE_USE_ITEM || $transactionType === InventoryTransactionPacket::TYPE_USE_ITEM_ON_ENTITY){
-				$this->plugin->addClick($player);
-			}
+		$p = $event->getPacket();
+		if ($p instanceof LevelSoundEventPacket and $p->sound == LevelSoundEventPacket::SOUND_ATTACK_NODAMAGE or $p instanceof InventoryTransactionPacket and $p->trData instanceof UseItemOnEntityTransactionData) {
+			$this->plugin->addClick($player);
 		}
 	}
 }
