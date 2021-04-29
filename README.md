@@ -1,9 +1,9 @@
 ![CPS Banner](https://github.com/JackMD/CPS/blob/master/meta/cps.png)
 # CPS
 
-| HitCount | License | Poggit | Release |
-|:--:|:--:|:--:|:--:|
-|[![HitCount](http://hits.dwyl.io/JackMD/CPS.svg)](http://hits.dwyl.io/JackMD/CPS)|[![GitHub license](https://img.shields.io/github/license/JackMD/CPS.svg)](https://github.com/JackMD/CPS/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Ifera/CPS/CPS)](https://poggit.pmmp.io/ci/Ifera/CPS/CPS)|[![](https://poggit.pmmp.io/shield.state/CPS)](https://poggit.pmmp.io/p/CPS)|
+| License | Poggit |
+|:--:|:--:|
+|[![GitHub license](https://img.shields.io/github/license/JackMD/CPS.svg)](https://github.com/JackMD/CPS/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Ifera/CPS/CPS)](https://poggit.pmmp.io/ci/Ifera/CPS/CPS)|
 
 ### A simple plugin which checks the clicks of a player per second. With in-built support for ScoreHud version 6.0+.
 
